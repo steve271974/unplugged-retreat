@@ -128,7 +128,13 @@ textarea {
    }
 
    .header-divider {
-     height: 1em;
+     height: 1px;
+     width: 100%;
+     margin: 19px 0 23px 0;
+   }
+
+   footer {
+     flex-direction: column;
    }
 
    footer .social-icons {
@@ -152,13 +158,20 @@ textarea {
      margin: 0;
    }
 
+   footer .contact {
+     margin-bottom: 50px;
+   }
+
+   footer .copyright {
+     margin: 20px 0;
+   }
+
   /* -------------------- Mobile Styles - Homepage -------------------- */
 
   /*  Hero Area  */
   .hero-area {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-flow: row wrap;
   }
 
@@ -190,7 +203,12 @@ textarea {
   }
 
   .features article {
-    
+    margin: 30px 0;
+    width: 63%;
+  }
+
+  .features h2 {
+    margin: 60px 0;
   }
 
   /*  Reviews Area  */
@@ -198,6 +216,11 @@ textarea {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+  }
+
+  .reviews h3 {
+    width: 55%;
+    margin: 20px 0;
   }
 
   /* ==========================================================================
