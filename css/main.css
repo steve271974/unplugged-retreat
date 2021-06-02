@@ -243,6 +243,7 @@ textarea {
    /* ==========================================================================
    FAQ Page
    ========================================================================== */
+   
   .faq-section {
     display: flex;
     justify-content: center;
@@ -256,6 +257,14 @@ textarea {
     align-items: center;
     flex-flow: row wrap;
 }   
+
+.faq-section h2 {
+  margin-bottom: 40px;
+}
+
+.faq-content {
+  margin-bottom: 50px;
+}
 
 /* ==========================================================================
    Helper classes
