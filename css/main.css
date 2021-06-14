@@ -135,11 +135,11 @@ textarea {
   }
 
   img {
-
+    width: 100%;
   }
 
   figure {
-
+    margin: 0;
   }
 
   address {
@@ -194,6 +194,14 @@ textarea {
      height: 1px;
      width: 100%;
      margin: 19px 0 23px 0;
+   }
+
+   header figure {
+     width: 60%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
    }
 
    .form-area {
