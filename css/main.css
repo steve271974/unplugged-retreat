@@ -255,6 +255,18 @@ textarea {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background-image: url(../img/jake-melara-30679-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 500px;
+  }
+
+  .hero-area h1 {
+    font-size: 2.25em;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif; 
+    font-weight: 500; 
+    line-height: 1.2; 
   }
 
   /*  Aside Area  */
@@ -297,6 +309,10 @@ textarea {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background-image: url(../img/rawpixel-800820-unsplash1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   .features .features-items {
