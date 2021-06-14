@@ -96,6 +96,7 @@ textarea {
   body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
+    color: #e2e3ed;
   }
 
   ul, li {
@@ -107,6 +108,11 @@ textarea {
     text-decoration: none;
   }
 
+  h1 {
+    font-size: 2.25em;
+    font-family: 'Poppins', sans-serif;
+  }
+
   h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.875em;
@@ -116,6 +122,11 @@ textarea {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.125em;
     margin: 22px 0;
+  }
+
+  h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.125em;
   }
 
   p {
@@ -152,6 +163,7 @@ textarea {
 
    header {
      padding: 15px 0;
+     background-color: #202322;
    }
 
    header .content-wrapper {
@@ -174,6 +186,8 @@ textarea {
      display: flex;
      justify-content: space-around;
      width: 100%;
+     font-weight: bold;
+     font-size: 1.125em;
    }
 
    .header-divider {
@@ -182,8 +196,18 @@ textarea {
      margin: 19px 0 23px 0;
    }
 
+   .form-area {
+    background-color: #527158;
+   }
+
    footer {
      flex-direction: column;
+     text-align: center;
+     background-color: #282828;
+   }
+
+   .reviews {
+    background-color: #2a423a;
    }
 
    footer .social-icons {
@@ -209,6 +233,7 @@ textarea {
 
    footer .contact {
      margin-bottom: 50px;
+     font-size: .875em;
    }
 
    footer .copyright {
@@ -233,7 +258,7 @@ textarea {
   }
 
   aside .form {
-    margin: 30px;
+    /*margin: 30px;*/
   }
 
   input[type=text] {
@@ -275,6 +300,8 @@ textarea {
 
   .features p {
     margin: 0;
+    font-size: 0.875em;
+    line-height: 1.286em;
   }
 
   .features article {
@@ -284,6 +311,8 @@ textarea {
 
   .features h2 {
     margin: 60px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.875em;
   }
 
   /*  Reviews Area  */
@@ -293,9 +322,21 @@ textarea {
     flex-flow: row wrap;
   }
 
+  .reviews h2 {
+    font-size: 1.875em;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1em;
+  }
+
   .reviews h3 {
     width: 55%;
     margin: 20px 0;
+    font-size: 1.125em;
+  }
+
+  .reviews p {
+    font-size: 0.875em;
+    line-height: 1.286em;
   }
 
   /* ==========================================================================
@@ -306,6 +347,7 @@ textarea {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     background-color: #527158;
    }
 
    .contact-section {
@@ -313,6 +355,7 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background-color: #2a423a;
   }
 
    /* ==========================================================================
@@ -324,6 +367,7 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background-color: #527158;
   }
 
   .faq-section .content-wrapper {
