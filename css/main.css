@@ -236,7 +236,7 @@ footer .contact {
 
 footer .social-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -244,13 +244,19 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #527158;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+ 
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
   
 }
 
-footer .social-icons a {
-  padding: 0 20px;
-  height: 40px;
-}
+
 
 footer .copyright {
   margin: 20px 0;
@@ -663,6 +669,11 @@ input[type=button] {
 
   footer p {
       line-height: 1.285;
+  }
+
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
   }
 
   footer .copyright {
