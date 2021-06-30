@@ -236,7 +236,7 @@ footer .contact {
 
 footer .social-icons {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -260,6 +260,7 @@ footer .social-icons p i {
 
 footer .copyright {
   margin: 20px 0;
+  padding-bottom: 7em;
 }
 
 .features i {
@@ -269,7 +270,7 @@ footer .copyright {
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
 
-/* Hero Area */
+/* Hero Content Styling Area */
 
 .hero-area {
   background: url(../img/unplugged-retreat.jpg);
@@ -288,7 +289,7 @@ footer .copyright {
   line-height: 1.2; 
 }
 
-/* Aside */
+/* Aside Content Styling Area */
 
 aside {
   background-color: #527158;
@@ -324,7 +325,7 @@ input[type=button] {
   text-transform: uppercase;
 }
 
-/* Features */
+/* Features Content Styling Area */
 
 .features {
   background: url('../img/unplugged-retreat-features.jpg');
@@ -356,7 +357,7 @@ input[type=button] {
   margin: 0;
 }
 
-/* Reviews */
+/* Reviews Content Styling Area */
 
 .reviews {
   background-color: #2a423a;
@@ -556,7 +557,7 @@ input[type=button] {
       line-height: 1.25;
   }
 
-  /* Header */
+  /* Header Content Styling Area */
   header {
     justify-content: space-around;
     padding: 33px 0;
@@ -582,7 +583,7 @@ input[type=button] {
   .header-divider {
     display: none;
   }
-  /* Hero Area */
+  /* Hero Content Styling Area */
 
   .hero-area {
     min-height: 600px;
@@ -594,7 +595,7 @@ input[type=button] {
     margin: 0;
 }
 
-  /* Aside */
+  /* Aside Content Styling Area */
   aside .content-wrapper {
     margin: 50px 0;
     display: flex;
@@ -608,7 +609,7 @@ input[type=button] {
     margin: 0;
   }
 
-  /* Features */
+  /* Features Content Styling Area */
 
   .features h2 {
     margin-bottom: 20px;
@@ -626,7 +627,7 @@ input[type=button] {
     width: 62%;
   }
 
-  /* Reviews */
+  /* Reviews Content Styling Area */
   .reviews article {
     display: flex;
     justify-content: space-between;
@@ -645,7 +646,7 @@ input[type=button] {
     width: 75%;
     margin: 0;
   }
-  /* Footer */
+  /* Footer Content Styling Area */
   footer .content-wrapper {
     width: 65%;
     margin: 100px 0;
@@ -760,13 +761,13 @@ input[type=button] {
       font-size: 1.125em;
       line-height: 1.333;
   }
-  /* Hero */
+  /* Hero Content Styling Area */
   .hero-area h1 {
     font-size: 3.75em;
     width: 80%;
 }
 
-  /* Aside */
+  /* Aside Content Styling Area */
   aside .content-wrapper {
     justify-content: space-around;
   }
@@ -780,7 +781,7 @@ input[type=button] {
     font-size: 1.125em;
   }
 
-  /* Features */
+  /* Features Content Styling Area */
 
   .features h2 {
     width: 90%;
@@ -790,7 +791,7 @@ input[type=button] {
     flex-basis: 33%;
   }
   
-  /* Reviews */
+  /* Reviews Content Styling Area */
 
   .reviews h2 {
     padding-bottom: 50px; 
